@@ -37,7 +37,7 @@ public class Student {
         //AVEM VOIE SA FOLOSIM CONSTRUCTORUL O SINGURA DATA IN ALT CONSTRUCTOR
     }
 
-    void printStudent() {
+    void print() {
         System.out.println("Validare " + isValidStudent(this) + "\nNume: " + this.numeStudent + "\nNrMatricol " + 
         this.numarMatricol + "\nAn Studiu " + this.anStudiu + "\n");
     }

@@ -10,10 +10,10 @@ public class TestPrb01 {
         Student s3 = new Student(59871231, "Claudiu", 3);
         Student s4 = new Student(s3);
     
-        s1.printStudent();
-        s2.printStudent();
-        s3.printStudent();
-        s4.printStudent();
+        s1.print();
+        s2.print();
+        s3.print();
+        s4.print();
         //Task 5: boolean - false, double 0.0
         //Rez: camp al clasei -> se dau valorile default
         //     in metode -> nu se aloca val default
