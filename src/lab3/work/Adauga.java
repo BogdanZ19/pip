@@ -6,24 +6,24 @@ public class Adauga {
     int agregatCurent = 0;
     int subsistemCurent = 0;
 
-    Adauga(Sistem sis) {
+    public Adauga(Sistem sis) {
         this.sis = sis;
         System.out.println("Constructor Adauga");
     }
 
-    Adauga add(Piesa p) {
+    public Adauga add(Piesa p) {
         this.sis.arrPiese[piesaCurenta] = p;
         piesaCurenta++;
         return this;
     }
 
-    Adauga add(Agregat a) {
+    public Adauga add(Agregat a) {
         this.sis.arrAgregate[agregatCurent] = a;
         agregatCurent++;
         return this;
     }
 
-    Adauga add(Subsistem s) {
+    public Adauga add(Subsistem s) {
         this.sis.arrSubsisteme[subsistemCurent] = s; 
         subsistemCurent++;
         return this;

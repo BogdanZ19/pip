@@ -5,7 +5,7 @@ public class Sistem {
     Agregat[] arrAgregate = new Agregat[10];
     Subsistem[] arrSubsisteme = new Subsistem[10];
 
-    Sistem() {
+    public Sistem() {
         System.out.println("Constructor Sistem");
     }
 }

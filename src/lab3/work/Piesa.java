@@ -1,7 +1,7 @@
 package lab3.work;
 
-class Piesa {
-    Piesa() {
+public class Piesa {
+    public Piesa() {
         System.out.println("Constructor Piesa");
     }
 }
