@@ -9,4 +9,5 @@ public class TestPb4 {
         ((ClasaA)obj).metoda4();
         Interf4.metoda4();
     }    
+    // mutam in alt pachet -> interfetele trebuie sa fie publice
 }
