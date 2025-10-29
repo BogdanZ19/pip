@@ -19,8 +19,8 @@ public class TestPrb01 {
         //     in metode -> nu se aloca val default
 
         //Task 6 (DA, SUNT DIFERITI DIN PUNCT DE VEDERE AL SUPRAINCARCARII)
-        // Student s5 = new Student("Andrei", (long) 123);
-        // Student s6 = new Student(812957128, "Cristi");
+        // Student s5 = new Student("Andrei", 123L);
+        // Student s6 = new Student(812L, "Cristi");
     }
 
 
