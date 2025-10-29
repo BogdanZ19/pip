@@ -2,11 +2,7 @@ package lab4.Pb1;
 
 public class TestPb1 {
     static void printAutomobil(Autovehicul a) {
-        if (a instanceof Sport) {
-            ((Sport)a).printSport();
-        } else if (a instanceof Berlina) {
-            ((Berlina)a).printBerlina();
-        }
+        System.out.println(a);
     }
     public static void main(String[] args) {
         Berlina b = new Berlina();
@@ -26,5 +22,9 @@ public class TestPb1 {
         TestPb1.printAutomobil(b);
         TestPb1.printAutomobil(s);
         TestPb1.printAutomobil((Sport)m);
+
+        System.out.println("\n//4");
+        Autovehicul auto = new Autovehicul();
+        TestPb1.printAutomobil((Sport)auto);
     }
 }
