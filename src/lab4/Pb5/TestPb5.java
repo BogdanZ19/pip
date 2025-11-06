@@ -7,6 +7,7 @@ public class TestPb5 {
         ci.metoda3();
         ClasaExterioara.ClasaInStatica cis = new ClasaExterioara.ClasaInStatica();
         cis.metoda1();
+        ClasaExterioara.ClasaInStatica.metoda2();
     }    
 }
 
