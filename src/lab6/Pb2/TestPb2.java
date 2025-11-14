@@ -3,7 +3,7 @@ package lab6.Pb2;
 public class TestPb2 {
     public class PIPException extends Exception {
         private String mesaj;
-        static long serialVersionUID;
+        private static final long serialVersionUID = 0;
 
         PIPException(String arg) {
             this.mesaj = arg;
